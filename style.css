@@ -16,7 +16,7 @@ header .container {
     justify-content: space-between; /* logo trái, menu phải */
     align-items: center;            /* căn giữa theo chiều dọc */
     padding: 10px 20px;
-    background-color: #333;         /* màu nền header */
+    background-color: #004080;         /* màu nền header */
 }
 
 /* Logo */
@@ -135,6 +135,7 @@ form button:hover {
         align-items: center;
     }
 }
+
 
 
 
