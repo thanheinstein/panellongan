@@ -11,46 +11,39 @@ body {
     color: #333;
 }
 
-header {
+header .container {
     display: flex;
-    justify-content: flex-start; /* logo sát trái */
-    align-items: center;
-    padding: 10px 20px;          /* giảm padding hai bên */
-    background-color: #004080;
+    justify-content: space-between; /* logo trái, menu phải */
+    align-items: center;            /* căn giữa theo chiều dọc */
+    padding: 10px 20px;
+    background-color: #333;         /* màu nền header */
 }
 
+/* Logo */
 header .logo img {
-    height: 100px;   /* tăng kích thước logo */
-    width: auto;     /* giữ tỉ lệ */
+    height: 100px;
+    width: auto;
     display: block;
-    border-radius: 8px;
+    border-radius: 8px; /* bo góc nhẹ */
 }
 
-nav {
-    display: flex;
-    justify-content: flex-end; /* đẩy menu sang phải */
-    align-items: center;       /* căn giữa theo chiều dọc */
-}
-
-/* Các li xếp ngang, có khoảng cách */
+/* Menu */
 nav ul {
     list-style: none;
-    display: flex;
-    gap: 20px;
+    display: flex;       /* xếp hàng ngang */
+    gap: 20px;           /* khoảng cách giữa các link */
     margin: 0;
     padding: 0;
 }
 
-/* Kiểu cho link */
 nav ul li a {
     color: white;
     text-decoration: none;
     padding: 5px 10px;
     border-radius: 5px;
-    transition: background-color 0.3s; /* hover mượt */
+    transition: background-color 0.3s;
 }
 
-/* Hover hoặc active */
 nav ul li a.active,
 nav ul li a:hover {
     background-color: #666666;
@@ -142,6 +135,7 @@ form button:hover {
         align-items: center;
     }
 }
+
 
 
 
