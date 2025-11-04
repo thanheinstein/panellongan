@@ -127,3 +127,14 @@ form button:hover {
         align-items: center;
     }
 }
+header .logo {
+    margin: 0;           /* bỏ khoảng cách mặc định */
+    padding: 0;          /* bỏ padding nếu có */
+    float: left;         /* logo ôm sát trái */
+}
+
+header .logo img {
+    max-height: 80px;    /* tăng chiều cao logo, bạn có thể điều chỉnh */
+    width: auto;         /* giữ tỉ lệ */
+    display: block;      /* tránh khoảng trắng dưới hình */
+}
